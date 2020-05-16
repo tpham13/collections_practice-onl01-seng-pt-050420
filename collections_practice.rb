@@ -3,3 +3,4 @@ def sort_array_desc(array)
   a <=> b
 end
 
+array = [6,10,4,,2,1]
