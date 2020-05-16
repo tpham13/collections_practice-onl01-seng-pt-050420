@@ -4,5 +4,5 @@ def sort_array_desc(array)
   end 
 end
 
-array = [6,10,4,,2,1]
+
 
