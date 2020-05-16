@@ -6,8 +6,8 @@ def sort_array_asc(array)
 end
 
 def sort_array_dsc(array)
-  numbers.sort! {|a, b| a <=> b}
-  new_array = array.sort do |a, b|
+  new_array = numbers.sort! {|a, b| b <=> a}
+ 
     a <=> b
   end 
 
