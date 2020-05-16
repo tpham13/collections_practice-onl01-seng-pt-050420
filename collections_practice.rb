@@ -37,6 +37,9 @@ def kesha_maker (array)
 end 
 
 
-  
-enddef sum_array(array)
-  array.collect 
+def sum_array (array)
+  array.inject do |sum, num|
+    sum + num
+  end
+end
+
