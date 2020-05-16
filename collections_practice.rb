@@ -7,7 +7,6 @@ end
 
 def sort_array_dsc(array)
   new_array = numbers.sort! {|a, b| b <=> a}
- 
     a <=> b
   end 
 
