@@ -12,7 +12,7 @@ end
 
 def swap_elements(array)
   array.sort{|a,b| a[1]<=>b[2]}
-  array
+  puts array
   end 
 end
   
