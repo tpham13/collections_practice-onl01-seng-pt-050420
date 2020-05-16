@@ -36,7 +36,7 @@ def kesha_maker (array)
   end
 end 
 
-def sum_array(array)
-  array.collect 
+
   
-end
+enddef sum_array(array)
+  array.collect 
