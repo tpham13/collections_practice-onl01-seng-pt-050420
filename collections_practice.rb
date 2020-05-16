@@ -11,7 +11,7 @@ def sort_array_desc(array)
 end
 
 def swap_elements(array)
-  result = values.sort {|left, right| left.length <=> right.length}
+  result = array.sort {|left, right| left.length <=> right.length}
   puts result
 
 end 
