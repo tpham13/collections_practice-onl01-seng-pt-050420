@@ -11,11 +11,6 @@ def sort_array_desc(array)
 end
 
 def swap_elements(array)
-  array[1..2] = array[1..2].sort do |a,b|
-    if a==b || a<b || a>b 
-      1
-    end
-  end
-  array
+  array.sort{|a,b| a[1]<=>b[2]}
 end
   
