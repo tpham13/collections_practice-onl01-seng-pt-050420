@@ -35,3 +35,8 @@ def kesha_maker (array)
     element
   end
 end 
+
+def sum_array(array)
+  array.collect 
+  
+end
