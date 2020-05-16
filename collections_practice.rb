@@ -6,7 +6,7 @@ def sort_array_asc(array)
 end
 
 def sort_array_dsc(array)
-  sorted_array = a.sort.reverse
+  a.sort {|x,y| -(x <=> y)}
     
    
 end
