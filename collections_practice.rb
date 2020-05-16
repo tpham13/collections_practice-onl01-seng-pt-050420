@@ -12,7 +12,5 @@ end
 
 def swap_elements(array)
   result = array.sort {|left, right| left.length <=> right.length}
-  puts result
-  end 
 
 end 
