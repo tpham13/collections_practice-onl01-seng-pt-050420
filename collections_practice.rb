@@ -9,5 +9,5 @@ def sort_array_dsc(array)
   numbers.sort! {|a, b| b <=> a}
     
   end 
-  puts numbers  
+   
 end
