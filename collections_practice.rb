@@ -7,7 +7,5 @@ end
 
 def sort_array_dsc(array)
   sorted_array = a.sort.reverse
-    
-  end
    
 end
